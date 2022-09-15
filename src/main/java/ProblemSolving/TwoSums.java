@@ -21,8 +21,8 @@ public class TwoSums {
      *
      * Example 2:
      *
-     * Input: nums = [3,2,4], target = 6
-     * Output: <[2,4]>
+     * Input: nums = [3,2,4,-3,9], target = 6
+     * Output: <[2,4], [-3,9]>
      *
      * Example 3:
      *
@@ -37,6 +37,10 @@ public class TwoSums {
      * -109 <= target <= 109
      * more than one valid answer can exists.
      *
+     * marking criteria:
+     * 1- code quality -> 33%.
+     * 2- solution time complexity O(n^2) -> 33%
+     * 3- solution time complexity O(n) or O(n*log(n)) -> 67%
      * */
     public Map<Integer, Integer> findAllTwoSums(List<Integer> input, Integer target) {
         Map<Integer, Integer> result = new HashMap<>();
